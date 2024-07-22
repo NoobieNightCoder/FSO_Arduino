@@ -14,7 +14,7 @@
 
 Данная технология была реализована с использованием **2-ух** микроконтроллеров типа **Arduino Mega 2560**. Коммуникация происходит через **UART** по **Serial1 порту** со скоростью **9600 Бод**. Выведение сообщений / картинок происходит на TFT дисплей 128x160 пикселей. В качестве передатчика используется **Лазер KY-008** и самодельный приемник на базе **Фотодиода BWP34** и **Усилителя LM358P**. Схема приемника:
 
-[Receiver](https://github.com/NoobieNightCoder/FSO_Arduino/blob/main/Photos/Receiver_Schema.png?raw=true)
+![Receiver](https://github.com/NoobieNightCoder/FSO_Arduino/blob/main/Photos/Receiver_Schema.png?raw=true)
 
 ## TFT Дисплей
 
