@@ -12,7 +12,9 @@
 
 ## Реализация
 
-Данная технология была реализована с использованием **2-ух** микроконтроллеров типа **Arduino Mega 2560**. Коммуникация происходит через **UART** по **Serial1 порту** со скоростью **9600 Бод**. Выведение сообщений / картинок происходит на TFT дисплей 128x160 пикселей
+Данная технология была реализована с использованием **2-ух** микроконтроллеров типа **Arduino Mega 2560**. Коммуникация происходит через **UART** по **Serial1 порту** со скоростью **9600 Бод**. Выведение сообщений / картинок происходит на TFT дисплей 128x160 пикселей. В качестве передатчика используется **Лазер KY-008** и самодельный приемник на базе **Фотодиода BWP34** и **Усилителя LM358P**. Схема приемника:
+
+[Receiver](https://github.com/NoobieNightCoder/FSO_Arduino/blob/main/Photos/Receiver_Schema.png?raw=true)
 
 ## TFT Дисплей
 
@@ -65,7 +67,7 @@ String message = "Hello world!";   // 15 строка
 
 Конфигурация для отправки сообщения в одну сторону и его выведение на TFT дисплей.
 
-![Text](https://github.com/NoobieNightCoder/FSO_Arduino/tree/main/Photos/Text.png)
+![Text](https://github.com/NoobieNightCoder/FSO_Arduino/blob/main/Photos/Text.png?raw=true)
 
 #### Transmitter_TextDisplay
 
@@ -83,7 +85,7 @@ String message = "Hello world!";   // 14 строка
 
 Конфигурация для отправки изображения и его выведение на TFT дисплей.
 
-![Image](https://github.com/NoobieNightCoder/FSO_Arduino/tree/main/Photos/Image.png)
+![Image](https://github.com/NoobieNightCoder/FSO_Arduino/blob/main/Photos/Image.png?raw=true)
 
 #### Transmitter_PhotoDisplay
 
